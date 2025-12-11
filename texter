@@ -28,11 +28,8 @@ sleep(1.5)
 
 press('enter')
 
-sleep(4)
-
-
-
 if len(argv) > 1:
+	sleep(4)
 	hotkey(mod,'n')
 	sleep(.5)
 	i = 1
@@ -50,7 +47,4 @@ if len(argv) > 1:
 	if i+1 < len(argv):
 		write(argv[i+1])
 		press('enter')
-
-
-	
 
